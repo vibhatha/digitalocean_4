@@ -2629,7 +2629,7 @@ $scope.hide = function() {
               
                 
                 
-                var tempDateString ="2015-07-18";
+                var tempDateString ="2015-09-16";
                 
                 $scope.getTotalPowerConsumptionFromEachDeviceByDay(tempDateString);
                 
@@ -2651,7 +2651,7 @@ $scope.hide = function() {
               
                // $window.alert($scope.mainListItems[item].name+"**"+'today :'+date);
                 
-                var tempDateString ="2015-09-16';
+                var tempDateString ="2015-09-16";
                 
                 $scope.getTotalPowerConsumptionFromEachDeviceByDay(tempDateString);
                 
@@ -4001,7 +4001,7 @@ var monthlist = [{key:'1',month:'1',days:31},{key:'2',month:'2',days:31},{key:'3
         };
     
      //call daily, monthly past and current data and load data to scope
-        var demodata="2015-07-18";
+        var demodata="2015-09-16";
       $scope.getTotalPowerConsumptionFromEachDeviceByDay(demodata)  
         
         
