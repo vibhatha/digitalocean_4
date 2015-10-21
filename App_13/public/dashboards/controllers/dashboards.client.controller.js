@@ -140,7 +140,7 @@ $scope.hide = function() {
         
         $scope.getMonthGraph = function(){
          //$scope.setThisMonthGraphData();  
-          $scope.getPowerPerDayGraph('2015-07-18');
+          $scope.getPowerPerDayGraph('2015-09-16');
             if($scope.analytics==true){
                 $scope.analytics=false;
                 $scope.lastMonthGraph=true;
@@ -158,7 +158,7 @@ $scope.hide = function() {
         
         
         $scope.getLastMonthGraph = function(){
-            $scope.getPowerPerDayGraph('2015-07-18');
+            $scope.getPowerPerDayGraph('2015-09-16');
             if($scope.lastMonthGraph==true){
                 $scope.lastMonthGraph=false;
                 $scope.analytics=true;
@@ -175,7 +175,7 @@ $scope.hide = function() {
         };
         
         $scope.getTodayGraph = function(){
-           $scope.getPowerPerHourGraph('2015-07-18'); 
+           $scope.getPowerPerHourGraph('2015-09-16'); 
             if($scope.todayGraph==true){
                 $scope.todayGraph=false;
                 $scope.yesterdayGraph=true;
@@ -191,7 +191,7 @@ $scope.hide = function() {
             
         };
         $scope.getYesterdayGraph = function(){
-           $scope.getPowerPerHourGraph('2015-07-18');   
+           $scope.getPowerPerHourGraph('2015-09-16');   
             if($scope.yesterdayGraph==true){
                 $scope.yesterdayGraph=false;
                 $scope.todayGraph=true;
@@ -2651,7 +2651,7 @@ $scope.hide = function() {
               
                // $window.alert($scope.mainListItems[item].name+"**"+'today :'+date);
                 
-                var tempDateString ="2015-07-18";
+                var tempDateString ="2015-09-16';
                 
                 $scope.getTotalPowerConsumptionFromEachDeviceByDay(tempDateString);
                 
@@ -2683,7 +2683,7 @@ $scope.hide = function() {
               
                 
                 
-                var tempDateString ="2015-07-18";
+                var tempDateString ="2015-09-16";
                 
                 $scope.getTotalPowerConsumptionFromEachDeviceByDay(tempDateString);
                 
@@ -2707,7 +2707,7 @@ $scope.hide = function() {
               
                 
                 
-                var tempDateString ="2015-07-18";
+                var tempDateString ="2015-09-16";
                 
                 $scope.getTotalPowerConsumptionFromEachDeviceByDay(tempDateString);
                 
@@ -2730,7 +2730,7 @@ $scope.hide = function() {
               
                 
                 
-                var tempDateString ="2015-07-18";
+                var tempDateString ="2015-09-16";
                 
                 $scope.getTotalPowerConsumptionFromEachDeviceByDay(tempDateString);
             }
