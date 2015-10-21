@@ -7,8 +7,8 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 // Load the module dependencies
 var mongoose = require('./config/mongoose'),
 	express = require('./config/express'),
-	passport = require('./config/passport'),
-    Agenda = require("Agenda");
+	passport = require('./config/passport');
+
 
 // Create a new Mongoose connection instance
 var db = mongoose();
@@ -25,10 +25,10 @@ var passport = passport();
 
 
 ////////////////////////////////////////////////////////////////
-//agenda code segment start
+//agenda code segment /* start
 
 
-var agenda = new Agenda({db: { address: 'localhost:27017/mean-development-3'}});
+/* var agenda = new Agenda({db: { address: 'localhost:27017/mean-development-3'}});
 var time1 ='at 10:11:14pm';
 var time_slots =['at 04:00:10pm','at 04:00:20pm','at 04:00:30pm','at 04:00:40pm','at 04:00:50pm'];
 var task_list =['Job 11','Job 12','Job 13','Job 14','Job 15'];
@@ -75,7 +75,7 @@ for(var i=0;i<task_list.length;i++){
 }
 
 agenda.start();
-
+ */ 
 console.log('Wait...');
 console.log(new Date());
 
