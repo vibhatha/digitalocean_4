@@ -1,0 +1,3 @@
+@@{name:TV On 2,timer:6:40pm,job:TV On 2 Desc,action:on,device:55ebcd0f43d8f91410b413ad,smartplug:559e0c048dfa11781552c9c6}##
+@@{name-lap on,timer-5:35am,timerend-6:35am,job-Lap On,action-on,device-55ebcd0f43d8f91410b413ad,smartplug-55eb39e647fdcd501b6235da}##
+@@{name-Washing Machine On,timer-6:35am,timerend-9:35am,job-Washing Machine,action-on,device-55ebda43c94b14841ca1b246,smartplug-559e0c048dfa11781552c9c6}##
